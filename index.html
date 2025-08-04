@@ -728,6 +728,21 @@
         </label>
     </div>
 
+     <button class="portfolio-toggle-btn" id="portfolioToggle">
+        Leadership Portfolio
+        <i class="fas fa-exchange-alt"></i>
+    </button>
+
+    <script>
+        document.getElementById('portfolioToggle').addEventListener('click', function() {
+            // This is where you would handle the portfolio switching
+            // For now, it just shows an alert - you'll need to implement the actual switching            
+            // In a real implementation, you might:
+            window.location.href = "leadership.html";
+            // 2. Or toggle content on the same page if you want a single-page solution
+        });
+    </script>
+
     <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
